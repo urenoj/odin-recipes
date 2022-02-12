@@ -1,0 +1,20 @@
+/* style.css */
+.full {
+  background-color: pink;
+}
+
+.heading {
+  font-family: "Times New Roman", sans-serif;
+  font-size: 69px;
+  font-weight: bold;
+  text-align: center;
+  border-style: outset;
+  border-color: gray;
+  border-radius: 7px;
+  padding: 10px 40px 10px 40px;
+}
+
+.recipe {
+  font-family: "Times New Roman", sans-serif;
+  font-size: 30px;
+} 
