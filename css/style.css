@@ -1,4 +1,6 @@
 /* style.css */
+
+/*index.html */
 .container {
   display: flex;
   flex-direction: column;
@@ -11,10 +13,10 @@
   justify-content: center;
   margin: 0;
   font-family: monospace;
-  font-size: 69px;
-  font-weight: 400;
+  font-size: 100px;
+  font-weight: 500;
   color: #101010;
-  padding: 40px 40px;
+  padding: 70px 70px;
 }
 
 .recipe {
@@ -22,12 +24,12 @@
   flex-direction: row;
   justify-content: center;
   font-family: monospace;
-  font-size: 30px;
+  font-size: 40px;
   list-style-type: none;
 } 
 
 .recipe a {
-  padding: 30px;
+  padding: 20px;
   text-decoration: none;
   color: #101010;
 }
@@ -36,11 +38,74 @@
   font-size: larger;
 }
 
-img {
+.remy {
   display: flex;
   flex-direction: row;
   align-self: center;
-  border-radius: 16px;
   width: 30vw;
+  height: 40vh;
+}
+
+img {
+  border-radius: 16px;
+}
+
+/* lasagna.html */
+
+.lasagna-container {
+  background-color:khaki;
+  font-family: monospace;
+  color: #101010;
+  margin-left: 5%;
+}
+
+.lasagna-heading {
+  font-size: 70px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.lasagna-img {
+  width: 40vw;
+  height: 30vh;
+}
+
+/* salmon.html */
+
+.salmon-container {
+  background-color:violet;
+  font-family: monospace;
+  color: #101010;
+  margin-left: 5%;
+}
+
+.salmon-heading {
+  font-size: 70px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.salmon-img {
+  width: 20vw;
+  height: 50vh;  
+}
+
+/* chicken-alfredo.html */
+
+.alfredo-container {
+  background-color:burlywood;
+  font-family: monospace;
+  color: #101010;
+  margin-left: 5%;
+}
+
+.alfredo-heading {
+  font-size: 70px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.alfredo-img {
+  width: 25vw;
   height: 40vh;
 }
