@@ -1,20 +1,46 @@
 /* style.css */
-.full {
-  background-color: pink;
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: cadetblue;
 }
 
 .heading {
-  font-family: "Times New Roman", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  font-family: monospace;
   font-size: 69px;
-  font-weight: bold;
-  text-align: center;
-  border-style: outset;
-  border-color: gray;
-  border-radius: 7px;
-  padding: 10px 40px 10px 40px;
+  font-weight: 400;
+  color: #101010;
+  padding: 40px 40px;
 }
 
 .recipe {
-  font-family: "Times New Roman", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: monospace;
   font-size: 30px;
+  list-style-type: none;
 } 
+
+.recipe a {
+  padding: 30px;
+  text-decoration: none;
+  color: #101010;
+}
+
+.recipe a:hover {
+  font-size: larger;
+}
+
+img {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  border-radius: 16px;
+  width: 30vw;
+  height: 40vh;
+}
